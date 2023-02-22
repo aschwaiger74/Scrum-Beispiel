@@ -3,6 +3,7 @@
 using namespace sf; // statt std, hat zur Folge, dass bei String etc. std:: vor gesetzt werden muss
 
 int main() {
+	int loeschen;
 	// 1. Spielfenster mit allen Objekten anfelgen
 	int score = 0; // wie oft wird der Ball getroffen
 	int mx = 0;    // Flugrichtung x- Achse >> -5 nach links; +5 nach rechts
